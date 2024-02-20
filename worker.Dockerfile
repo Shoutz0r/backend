@@ -1,4 +1,4 @@
-FROM php:8.3.0RC4-cli-alpine
+FROM php:8-cli-alpine
 
 # Add OpCache
 RUN docker-php-ext-configure opcache --enable-opcache \
